@@ -7,7 +7,9 @@ Bootforce is packaged as a static resource, within which you'll find the followi
 
 ## Directories & Files
 
-```java
+Downloading and unzipping the compressed static resource will allow you to see the structure of Bootforce. You'll see something like this:
+
+```text
 bootforce/
     +-- css/
     ¦   +-- bootforce.css
@@ -51,6 +53,7 @@ Copy the Visualforce page below to begin working with minimal Bootstrap function
 ## Template with Glyphicons
 
 Copy the Visualforce page below to begin working with Bootstrap functionality including glyphicons.
+
 ```HTML
 <apex:page docType="html-5.0">
     <apex:stylesheet value="{!URLFOR($Resource.bootforce, '/css/bootforce.min.css')}"></apex:stylesheet>
@@ -79,7 +82,7 @@ Copy the Visualforce page below to begin working with Bootstrap functionality in
 
 Copy the Visualforce page below to work with Bootstrap including the ability to use popovers and tooltips.
 
-```
+```HTML
 <apex:page docType="html-5.0">
     <apex:stylesheet value="{!URLFOR($Resource.bootforce, '/css/bootforce.min.css')}"></apex:stylesheet>
     <apex:stylesheet value="{!URLFOR($Resource.bootforce, '/css/bootforce-theme.min.css')}"></apex:stylesheet>
@@ -104,7 +107,7 @@ $(document).ready(function(){
 
 Copy the Visualforce page below to begin working with more advanced Bootstrap functionality.
 
-```
+```HTML
 <apex:page docType="html-5.0">
     <apex:stylesheet value="{!URLFOR($Resource.bootforce, '/css/bootforce.min.css')}"></apex:stylesheet>
     <apex:stylesheet value="{!URLFOR($Resource.bootforce, '/css/bootforce-theme.min.css')}"></apex:stylesheet>
