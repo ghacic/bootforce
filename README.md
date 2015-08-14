@@ -1,11 +1,13 @@
 # Bootforce
-Bootforce lets you embed Bootstrap and JQuery frameworks and libraries into your Visualforce pages, making it easy to build visually striking Salesforce applications.
+Bootforce lets you embed Bootstrap and JQuery frameworks and libraries into your Visualforce pages, making it easy to build visually striking Salesforce applications. 
 
-## What's Included
+## Version
 
-Bootforce is packaged as a static resource, within which you'll find the following directories and files, logically grouping common resources and providing both compiled and minified variations.
+Bootforce is based upon Bootstrap version 3.3.1
 
 ## Directories & Files
+
+Bootforce is packaged as a static resource, within which you'll find the following directories and files, logically grouping common resources and providing both compiled and minified variations.
 
 Downloading and unzipping the compressed static resource will allow you to see the structure of Bootforce. You'll see something like this:
 
@@ -31,6 +33,19 @@ bootforce/
 ```
 
 Precompiled files for quick drop-in usage in nearly any Visualforce project. We provide compiled CSS and JS (`bootforce.*`), as well as compiled and minified CSS and JS (`bootforce.min.*`). Fonts from Glyphicons are included, as is the optional Bootstrap theme.
+
+## Installation
+
+You may create your own static resource using this repository as a guide or you can download the static resource directly from [www.InteractiveTies.com](https://www.interactiveties.com/support/install/bootforce/bootforce-3.3.1.zip "Bootforce 3.3.1").
+
+Once you have the zip file locally you will need to get it into your Salesforce org. Navigate to **Setup** > **Develop** > **Static Resources** and then click the **New** button on that page. Use the following information for the new static resource:
+- Name: **bootforce**
+- Description: **Bootstrap front end framework customized to work on the force.com platform. Version 3.3.1**
+- File: *upload from local location*
+- Cache Control: **Private**
+
+Click the **Save** button and you are good-to-go!
+
 
 ## Basic Template
 
